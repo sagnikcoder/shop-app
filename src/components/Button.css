@@ -1,0 +1,27 @@
+
+.button {
+    background-color: #EC255A;  
+    border: none;
+    
+    color: #FAEDF0;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    }
+    .button1:hover {
+    background-color: #FAEDF0; 
+    color: black; 
+    }
+
+    .button1 {
+    background-color: #EC255A;
+    color: #FAEDF0;
+    border: 2px solid #EC255A;
+    }
