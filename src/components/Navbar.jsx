@@ -8,6 +8,7 @@ import Provider from "../context/provider";
 import Context from "../context/context";
 
 
+
 const LargeContainer = styled.div`
 height: 150px;
 `;
@@ -31,6 +32,8 @@ const Image = styled.img`
     border-style: none;
     margin:0;
     padding:0;
+    height:80px;
+    widht:100px;
 `
 const Center = styled.div`
   flex: 1;
@@ -51,7 +54,7 @@ const Link = styled.nav`
 const NavBar =() => (
     <LargeContainer>
         <Wrapper>
-            <Left><Image src="https://theme.app.prod.fuznet.com/rondhon/assets/images/logo-2.png" alt="..."/></Left>
+            <Left><Image src={process.env.PUBLIC_URL+'icon.png'} alt="..."/></Left>
             <Center>
                 <Navbar expand="lg">
                     <Container>
@@ -75,7 +78,16 @@ const NavBar =() => (
                 </Navbar>
             </Center>
             <Right>
-            
+            <Provider>
+                <Context.Consumer>
+                    {
+                        (context) => {
+                        return(<Button text="Sign In" styleName="button2" onClick={context.handleShow} />)
+                        }
+                    }
+                </Context.Consumer>
+                <RegisterModal type="signup"/>
+            </Provider>
             <Provider>
                 <Context.Consumer>
                     {
@@ -84,7 +96,7 @@ const NavBar =() => (
                         }
                     }
                 </Context.Consumer>
-                <RegisterModal/>
+                <RegisterModal type="registration"/>
             </Provider>
             </Right>
         </Wrapper>

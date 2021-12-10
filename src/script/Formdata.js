@@ -45,16 +45,16 @@ const Formdata=()=>{
         },
         data: userJSON
       }).then(function (response) {
-        if(response.status===200){  
-        axios({
-              method: 'get',
-              url: 'http://localhost:8081/login'
-          }).then(function(response){
-              console.log(response)
-          }).catch(function(error){
-              console.log(error);
-          })
-        }
+        // if(response.status===200){  
+        // axios({
+        //       method: 'get',
+        //       url: 'http://localhost:8081/login'
+        //   }).then(function(response){
+        //       console.log(response)
+        //   }).catch(function(error){
+        //       console.log(error);
+        //   })
+        // }
         console.log(response);
       })
       .catch(function (error) {

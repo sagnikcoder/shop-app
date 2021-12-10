@@ -4,24 +4,28 @@
     border: none;
     
     color: #FAEDF0;
-    padding: 16px 32px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 10px;
     transition-duration: 0.4s;
     cursor: pointer;
     font-size: 20px;
     border-radius: 10px;
     }
-    .button1:hover {
-    background-color: #FAEDF0; 
-    color: black; 
-    }
-
+    
     .button1 {
+    border: 2px solid #EC255A;
+    }
+    .button2{
+        background-color: #FAEDF0; 
+        color: black; 
+        border: solid #EC255A;
+    }
+    .button2:hover{
     background-color: #EC255A;
     color: #FAEDF0;
-    border: 2px solid #EC255A;
+    
     }
