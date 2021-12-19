@@ -15,10 +15,6 @@ const SinginForm = () =>(
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
               </Form.Group>
-              
-              <Form.Group className="mb-3" controlId="adminradio">
-                <Form.Check type="radio" label="I am an Admin" />
-              </Form.Group>
             </Form>
 )
 export default SinginForm;

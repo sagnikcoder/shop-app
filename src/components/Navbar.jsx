@@ -6,6 +6,8 @@ import styled from "styled-components";
 import RegisterModal from "./RegisterModal.js";
 import Provider from "../context/provider";
 import Context from "../context/context";
+import {FaCartArrowDown} from 'react-icons/fa';
+import "./layout.css";
 
 
 
@@ -78,6 +80,7 @@ const NavBar =() => (
                 </Navbar>
             </Center>
             <Right>
+            <FaCartArrowDown className="cart-icon"/>
             <Provider>
                 <Context.Consumer>
                     {

@@ -1,0 +1,42 @@
+.cart-icon{
+    font-size: 2rem;
+    margin: 5px;
+    margin-right: 40px;
+    color:#161853;
+}
+.bg-blue{
+    background-color: #161853;
+}
+.banner{
+    height:800px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* opacity: 0.75; */
+    filter: brightness(0.75);
+    z-index: -1;
+}
+.title-upper{
+    position: absolute;
+    top:300px;
+    left: 150px;
+    color: #FAEDF0;
+    font-family: 'Vollkorn', serif;
+    font-size: 150px;
+ 
+}
+.title-lower{
+    position: absolute;
+    top:500px;
+    left: 150px;
+    color: #EC255A;
+    font-family: 'Lucida Handwriting';
+    font-size: 90px;
+    /* color: #e3b5ee; */
+}
+.title{
+    z-index: 0;
+    /* font-size: 100px; */
+    /* font-family: 'Lucida Handwriting'; */
+    /* background-color: #FAEDF0; */
+}
