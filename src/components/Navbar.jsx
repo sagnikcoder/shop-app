@@ -12,15 +12,20 @@ import "./layout.css";
 
 
 const LargeContainer = styled.div`
-height: 150px;
+height: 105px;
 `;
 const Wrapper = styled.div`
-padding: 30px 50px;
+padding: 10px 50px;
 display: flex;
 align-items: center;
 justify-content: space-between;
 background-color: #FAEDF0;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+z-index:1;
+position: fixed; 
+top: 0; 
+width: 100%;
+
 `;
 
 const Left = styled.div`

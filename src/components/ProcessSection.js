@@ -1,5 +1,4 @@
 import React from "react";
-import sectionimage from "../resources/jumbotron-image.jpg";
 import Processitem from "./Process-item";
 const ProcessSection=()=>{
     return (
@@ -12,7 +11,7 @@ const ProcessSection=()=>{
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
                                     <div className="section-title text-center">
-                                        <img src="https://theme.app.prod.fuznet.com/rondhon/assets/images/shape/title-shape.png"/>
+                                        <img src="https://theme.app.prod.fuznet.com/rondhon/assets/images/shape/title-shape.png" alt="..."/>
                                         <h3 className="title">How it works</h3>
                                         <p>The Process of our service</p>
                                     </div>

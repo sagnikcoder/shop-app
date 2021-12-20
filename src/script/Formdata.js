@@ -55,10 +55,10 @@ const Formdata=()=>{
         //       console.log(error);
         //   })
         // }
-        console.log(response);
+        console.log(response.data);
       })
       .catch(function (error) {
-        console.log(error);
+        console.log(error.response.data);
       });
     
 }
