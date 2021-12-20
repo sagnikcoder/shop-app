@@ -7,6 +7,9 @@
 .bg-blue{
     background-color: #161853;
 }
+
+/*Banner css*/
+
 .banner{
     height:800px;
     width: 100%;
@@ -40,3 +43,47 @@
     /* font-family: 'Lucida Handwriting'; */
     /* background-color: #FAEDF0; */
 }
+
+/*How it work section css*/
+
+.how-it-work-area{
+    background-image: url('https://theme.app.prod.fuznet.com/rondhon/assets/images/how-it-work-bg.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center 95px;
+}
+.how-it-work-box{
+    padding-left: 70px;
+    padding-right: 70px;
+    background: #fff;
+    border-radius: 20px;
+    padding-top: 90px;
+    padding-bottom: 95px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.pb-150 {
+    padding-bottom: 150px;
+}
+.pt-150 {
+    padding-top: 150px;
+}
+.bg_cover {
+    width: 100%;
+    height: 100%;
+}
+.how-it-work-item{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
