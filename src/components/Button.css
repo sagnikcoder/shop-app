@@ -16,15 +16,16 @@
     border-radius: 10px;
     }
     
-    .button1 {
-    border: 2px solid #EC255A;
+    .signup {
+    border: 2px solid #292C6D;
+    background-color: #292C6D;
     }
-    .button2{
+    .signin{
         background-color: #FAEDF0; 
-        color: black; 
+        color: #EC255A; 
         border: solid #EC255A;
     }
-    .button2:hover{
+    .signin:hover{
     background-color: #EC255A;
     color: #FAEDF0;
     

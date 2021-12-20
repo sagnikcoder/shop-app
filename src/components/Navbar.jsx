@@ -85,7 +85,7 @@ const NavBar =() => (
                 <Context.Consumer>
                     {
                         (context) => {
-                        return(<Button text="Sign In" styleName="button2" onClick={context.handleShow} />)
+                        return(<Button text="Sign In" styleName="signin" onClick={context.handleShow} />)
                         }
                     }
                 </Context.Consumer>
@@ -95,7 +95,7 @@ const NavBar =() => (
                 <Context.Consumer>
                     {
                         (context) => {
-                        return(<Button text="Sign Up" styleName="button1" onClick={context.handleShow} />)
+                        return(<Button text="Sign Up" styleName="signup" onClick={context.handleShow} />)
                         }
                     }
                 </Context.Consumer>
