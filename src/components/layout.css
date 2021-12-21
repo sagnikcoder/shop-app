@@ -47,7 +47,7 @@
 /*How it work section css*/
 
 .how-it-work-area{
-    background-image: url('https://theme.app.prod.fuznet.com/rondhon/assets/images/how-it-work-bg.jpg');
+    background-image: url('../resources/how-it-work-bg.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
