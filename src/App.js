@@ -1,8 +1,9 @@
 import Home from "./pages/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AdminHome from "./pages/AdminHome";
 
 const App = () => (
-  <Home />
+  <AdminHome/>
 )
 
 export default App;

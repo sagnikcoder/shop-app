@@ -1,0 +1,87 @@
+.food-menu-area {
+    padding-top: 142px;
+    padding-bottom: 180px;
+    background: #eed4db;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.section-title {
+    padding-bottom: 39px;
+}
+.text-center {
+    text-align: center!important;
+}
+.section-title .title {
+    font-family: "Vollkorn", serif;
+    font-size: 40px;
+    padding-top: 12px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-lg-8,.col-lg-12{
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;   
+}
+.food-menu-area .food-menu-box {
+    padding: 100px 100px 70px;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-image: url('https://theme.app.prod.fuznet.com/rondhon/assets/images/food-menu-bg.jpg');
+}
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.food-menu-area .food-menu-box .project-menu {
+    padding-bottom: 50px;
+}
+.food-menu-area .food-menu-box .project-menu ul li.active {
+    background: #F7B614;
+}
+.food-menu-area .food-menu-box .project-menu ul li {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 23px;
+    color: #fff;
+    font-family: "Vollkorn", serif;
+    position: relative;
+    z-index: -1;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.food-menu-area .food-menu-box .project-menu ul li.active::before {
+    border-color: #fff;
+    opacity: 1;
+}
+.food-menu-area .food-menu-box .project-menu ul li::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px dashed #EFECE3;
+    z-index: -1;
+    opacity: .4;
+}
+
